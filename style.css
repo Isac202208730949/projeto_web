@@ -15,6 +15,15 @@ section h2 {
     border-bottom: 3px solid black;
 }
 
+footer {
+    text-align: center;
+    background-color: #F1EADC;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .video-container {
     display: flex;
     justify-content: center;
@@ -56,11 +65,16 @@ section h2 {
 
 #produtos img {
     background-color: white;
-    height: 60%;
+    height: 80%;
 }
 
 #contato i {
     color: black;
+}
+
+#contato {
+    align-items: center;
+    justify-content: center;
 }
 
 .social-links li a{
@@ -69,7 +83,7 @@ section h2 {
 
 .social-links li {
     list-style: none;
-    display: inline;
+    display:inline-block;
 }
 
 #contato button {
@@ -79,4 +93,10 @@ section h2 {
 
 #contato button:hover {
     background-color: rgb(51, 50, 50);
+}
+
+
+.text--small {
+    font-size: 12px;
+    line-height: 22px;
 }
