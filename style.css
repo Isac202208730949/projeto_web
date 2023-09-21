@@ -1,0 +1,82 @@
+body {
+    font-family: 'Secular One', sans-serif;
+    background-color: #F1EADC;
+}
+
+p {
+    text-align: justify;
+}
+
+header {
+    background-color: #F1EADC;
+}
+
+section h2 {
+    border-bottom: 3px solid black;
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-item img {
+    height: 900px;
+}
+
+.navbar-brand,
+.navbar-brand:hover {
+    color: black;
+    font-size: 40px;
+}
+
+.nav-link,
+.nav-link:hover {
+    color: black;
+    font-size: 18px;
+}
+
+.nav .nav-link.active {
+    background-color: black;
+    color: white;
+}
+
+.bi-plug-fill {
+    color: black;
+}
+
+
+#produtos {
+    background-color: #F1EADC;
+    color: black;
+    align-items: center;
+}
+
+
+#produtos img {
+    background-color: white;
+    height: 60%;
+}
+
+#contato i {
+    color: black;
+}
+
+.social-links li a{
+    text-decoration: none;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+#contato button {
+    background-color: black;
+    color: white;
+}
+
+#contato button:hover {
+    background-color: rgb(51, 50, 50);
+}
